@@ -45,5 +45,13 @@ export default class View {
         }
     }
 
+    next(id){
+        let self = this;
+        let btn = document.getElementById(id);
+        btn.addEventListener("click", function(){
+            self.end();
+        })
+    }
+
 }
 

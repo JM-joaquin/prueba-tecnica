@@ -5,4 +5,23 @@
   width: 100vw;
   height: 100vh;
   background-color: #d6d6ff;
+  font-family: sans-serif;
+}
+
+.view-letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  width: 9rem;
+  height: 3rem;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid;
+  cursor: pointer;
 }
