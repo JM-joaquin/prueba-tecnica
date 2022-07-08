@@ -10,14 +10,7 @@ export default class App {
 
     }
 
-    async start() {
-        /* await (new TextView("El")).start();
-        await (new TextView("proyecto")).start();
-        await (new TextView("funciona")).start();
-        await (new TextView("correctamente!")).start(); */
-        await (new Aview().start());
-        await (new Bview().start());
-        await (new Cview().start());
-        await (new Dview().start());
+   start() {
+        new Aview().start();
     }
 }

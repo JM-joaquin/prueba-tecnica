@@ -1,14 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .view {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   top: 0;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-color: #d6d6ff;
   font-family: sans-serif;
 }
 
 .view-letters {
+  min-height: 100vh;
+  padding-bottom: 20rem;
+  gap: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,3 +34,33 @@
   border: 2px solid;
   cursor: pointer;
 }
+
+.btn:active{
+  background-color: rgb(231, 228, 228);
+}
+
+.inp {
+  width: 8.5rem;
+  height: 3rem;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+// Small devices (landscape phones, 576px and up)
+//@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+//@media (min-width: 1400px) { ... }
