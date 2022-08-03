@@ -10,7 +10,10 @@ export default class App {
 
     }
 
-   start() {
-        new Aview().start();
+   async start() {
+        await (new Aview().start());
+        await (new Bview().start());
+        await (new Cview().start()); 
+        await (new Dview().start());
     }
 }

@@ -34,6 +34,7 @@ export default class View {
     async start(inputData = null) {
         this._inputData = inputData;
         this._callbackPromise = Utils.deferredPromise(); // Resolved when the view ends.
+        console.log(this._inputData);
         return this._callbackPromise.promise;
     }
 

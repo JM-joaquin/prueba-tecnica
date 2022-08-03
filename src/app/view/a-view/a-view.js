@@ -15,9 +15,9 @@ export default class Aview extends View {
 
     next(){
         let self = this;
-        let btn = document.getElementById("nextA");
+        let btn = document.getElementById("next");
         btn.addEventListener("click", function(){
-            self.end(new Bview().start());
+            self.end();
         })
     }
 

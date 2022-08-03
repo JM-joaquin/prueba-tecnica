@@ -1,7 +1,63 @@
 .color-c{
-    background-color:  #FFF1CC !important;
+    background-color:  #fffacd !important;
     width: 100%;
     height: 100%;
     border-style: solid;
-    border-color: #ac965c;
+    border-color: #fdd871;
+}
+
+.color-c h1{
+    color: pink;
+}
+
+.color-c span{
+    color: red;
+}
+
+.color-c #swap{
+    background-color: #FFF1CC;
+    border: 2px solid #f1d483;
+}
+
+.color-c #reset{
+    background-color: #F9CFCC;
+    border: 2px solid #f3736a;
+}
+
+.color-c #next{
+    background-color: #E1D6E7;
+    border: 2px solid #cd81f7;
+}
+
+/*--------------*/
+
+.color-new{
+    background-color:  #DAE8FC !important;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #78b0ff;
+}
+
+.color-new h1{
+    color: blue;
+}
+
+.color-new span{
+    color: #cd81f7;
+}
+
+.color-new #swap{
+    background-color: #E1D6E7;
+    border: 2px solid #bd7ce0;
+}
+
+.color-new #reset{
+    background-color: #D4E7D4;
+    border: 2px solid #5abb5a;
+}
+
+.color-new #next{
+    background-color: #B0DDF0;
+    border: 2px solid #2f86ac;
 }
